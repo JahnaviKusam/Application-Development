@@ -1,6 +1,5 @@
 package AppDevelopment;
 import java.util.Scanner;
-
 public class HangmanGame {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -31,7 +30,6 @@ public class HangmanGame {
                 System.out.println("Good guess! Word: " + guessedWord);
             }
         }
-
         if (guessedWord.indexOf("_") == -1) {
             System.out.println("Congratulations! You guessed the word: " + secretWord);
         } else {
