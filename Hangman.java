@@ -12,7 +12,6 @@ public class HangmanGame {
 
         System.out.println("Welcome to the Hangman game!");
         System.out.println("Guess the word: " + guessedWord);
-
         while (attempts < maxAttempts && guessedWord.indexOf("_") != -1) {
             System.out.print("Enter a letter: ");
             char letter = scanner.next().charAt(0);
